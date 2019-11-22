@@ -1,0 +1,18 @@
+.TodoRow {
+  display: flex;
+  justify-content: space-between;
+
+  .cell {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 1px 2px;
+    width: 29%;
+
+    &:nth-of-type(1) {
+      width: 10%;
+    }
+  }
+  .titleCell {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,10 @@
+.Slider {
+  appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #074d32;
+  outline: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}

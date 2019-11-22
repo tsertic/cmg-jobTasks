@@ -1,0 +1,54 @@
+.Login {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .loginForm {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    .title {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    input {
+      font-size: 1.2em;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid black;
+      margin: 10px 0;
+    }
+    button {
+      margin-top: 20px;
+      display: block;
+      width: 100px;
+      height: 40px;
+      font-size: 1.2em;
+      background: white;
+      color: black;
+      border: 1px solid black;
+      cursor: pointer;
+      &:hover {
+        background: black;
+        color: white;
+      }
+    }
+  }
+  .infoMessage {
+    position: absolute;
+    bottom: 20px;
+  }
+  .errorMsg {
+    margin: 10px;
+    color: red;
+  }
+}

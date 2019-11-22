@@ -1,0 +1,15 @@
+.InputCommands {
+  padding: 10px;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.width-box {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

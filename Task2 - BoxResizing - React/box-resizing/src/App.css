@@ -1,0 +1,9 @@
+.App {
+  min-height: 100vh;
+}
+.box-container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

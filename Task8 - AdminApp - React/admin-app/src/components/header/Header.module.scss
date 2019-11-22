@@ -1,0 +1,26 @@
+.Header {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+
+  .upperNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    .title {
+      font-size: 2em;
+    }
+    .link {
+      padding: 3px 0;
+      color: black;
+      border-bottom: 1px solid transparent;
+      cursor: pointer;
+
+      &:hover {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}

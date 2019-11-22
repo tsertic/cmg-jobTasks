@@ -1,0 +1,14 @@
+.tableHeader {
+  display: flex;
+
+  .title {
+    text-align: center;
+    margin: 0px 2px;
+    flex: 1;
+    cursor: pointer;
+    &:nth-of-type(1) {
+      flex: none;
+      width: 10%;
+    }
+  }
+}
